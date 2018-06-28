@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="TestScript.TC001_SuccessfulRegistration_EnterAllFields"/>
+      <class name="TestScript.TC002_UnsucessfulRegistration_BlankFirstName"/>
+      <class name="TestScript.TC003_UnsuccessfulRegistration_InvalidFirstName"/>
+      <class name="TestScript.TC004_UnsucessfulRegistration_BlankLastName"/>
+      <class name="TestScript.TC005_UnsuccessfulRegistration_InvalidLastNam"/>
+      <class name="TestScript.TC006_UnsucessfulRegistration_BlankUserName"/>
+      <class name="TestScript.TC007_UnsuccessfulRegistration_InvalidUserName"/>
+      <class name="TestScript.TC008_UnsucessfulRegistration_BlankPassword"/>
+      <class name="TestScript.TC009_UnsuccessfulRegistration_InvalidPassword"/>
+      <class name="TestScript.TC010_UnsucessfulRegistration_BlankConfirmPassword"/>
+      <class name="TestScript.TC011_UnsuccessfulRegistration_InvalidConfirmPassword"/>
+      <class name="TestScript.TC012_UnsucessfulRegistration_BlankEmail"/>
+      <class name="TestScript.TC013_UnsuccessfulRegistration_InvalidEmail"/>
+      <class name="TestScript.TC014_SuccessfulRegistration_OnlyMandatoryField"/>
+      <class name="TestScript.TC015_UnsuccessfulRegistration_InvalidContactNo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

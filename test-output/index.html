@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\vivek\workspace\Deltax-Automation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestScript.TC001_SuccessfulRegistration_EnterAllFields" hash-for-method="SuccessfulRegistration">SuccessfulRegistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestScript.TC014_SuccessfulRegistration_OnlyMandatoryField" hash-for-method="SuccessfulRegistrationMandatoryfield">SuccessfulRegistrationMandatoryfield</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestScript.TC012_UnsucessfulRegistration_BlankEmail" hash-for-method="UnSuccessfulRegistration_BlankEmail">UnSuccessfulRegistration_BlankEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestScript.TC004_UnsucessfulRegistration_BlankLastName" hash-for-method="UnSuccessfulRegistration_BlankLastName">UnSuccessfulRegistration_BlankLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestScript.TC006_UnsucessfulRegistration_BlankUserName" hash-for-method="UnSuccessfulRegistration_BlankUserName">UnSuccessfulRegistration_BlankUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestScript.TC010_UnsucessfulRegistration_BlankConfirmPassword" hash-for-method="UnSuccessfulRegistration_Blankconfirmpassword">UnSuccessfulRegistration_Blankconfirmpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestScript.TC008_UnsucessfulRegistration_BlankPassword" hash-for-method="UnSuccessfulRegistration_Blankpassword">UnSuccessfulRegistration_Blankpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestScript.TC002_UnsucessfulRegistration_BlankFirstName" hash-for-method="UnSuccessfulRegistration_FirstName">UnSuccessfulRegistration_FirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestScript.TC011_UnsuccessfulRegistration_InvalidConfirmPassword" hash-for-method="UnSuccessfulRegistration_InvalidConfirmPassword">UnSuccessfulRegistration_InvalidConfirmPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestScript.TC015_UnsuccessfulRegistration_InvalidContactNo" hash-for-method="UnSuccessfulRegistration_InvalidContactNo">UnSuccessfulRegistration_InvalidContactNo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestScript.TC013_UnsuccessfulRegistration_InvalidEmail" hash-for-method="UnSuccessfulRegistration_InvalidEmail">UnSuccessfulRegistration_InvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestScript.TC003_UnsuccessfulRegistration_InvalidFirstName" hash-for-method="UnSuccessfulRegistration_InvalidFirstName">UnSuccessfulRegistration_InvalidFirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestScript.TC005_UnsuccessfulRegistration_InvalidLastNam" hash-for-method="UnSuccessfulRegistration_InvalidLastName">UnSuccessfulRegistration_InvalidLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestScript.TC009_UnsuccessfulRegistration_InvalidPassword" hash-for-method="UnSuccessfulRegistration_InvalidPassword">UnSuccessfulRegistration_InvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestScript.TC007_UnsuccessfulRegistration_InvalidUserName" hash-for-method="UnSuccessfulRegistration_InvalidUserName">UnSuccessfulRegistration_InvalidUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScript.TC006_UnsucessfulRegistration_BlankUserName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UnSuccessfulRegistration_BlankUserName">
+                  </a> <!-- UnSuccessfulRegistration_BlankUserName -->
+                  <span class="method-name">UnSuccessfulRegistration_BlankUserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScript.TC009_UnsuccessfulRegistration_InvalidPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UnSuccessfulRegistration_InvalidPassword">
+                  </a> <!-- UnSuccessfulRegistration_InvalidPassword -->
+                  <span class="method-name">UnSuccessfulRegistration_InvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScript.TC015_UnsuccessfulRegistration_InvalidContactNo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UnSuccessfulRegistration_InvalidContactNo">
+                  </a> <!-- UnSuccessfulRegistration_InvalidContactNo -->
+                  <span class="method-name">UnSuccessfulRegistration_InvalidContactNo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScript.TC012_UnsucessfulRegistration_BlankEmail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UnSuccessfulRegistration_BlankEmail">
+                  </a> <!-- UnSuccessfulRegistration_BlankEmail -->
+                  <span class="method-name">UnSuccessfulRegistration_BlankEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScript.TC003_UnsuccessfulRegistration_InvalidFirstName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UnSuccessfulRegistration_InvalidFirstName">
+                  </a> <!-- UnSuccessfulRegistration_InvalidFirstName -->
+                  <span class="method-name">UnSuccessfulRegistration_InvalidFirstName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScript.TC007_UnsuccessfulRegistration_InvalidUserName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UnSuccessfulRegistration_InvalidUserName">
+                  </a> <!-- UnSuccessfulRegistration_InvalidUserName -->
+                  <span class="method-name">UnSuccessfulRegistration_InvalidUserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScript.TC010_UnsucessfulRegistration_BlankConfirmPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UnSuccessfulRegistration_Blankconfirmpassword">
+                  </a> <!-- UnSuccessfulRegistration_Blankconfirmpassword -->
+                  <span class="method-name">UnSuccessfulRegistration_Blankconfirmpassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScript.TC005_UnsuccessfulRegistration_InvalidLastNam</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UnSuccessfulRegistration_InvalidLastName">
+                  </a> <!-- UnSuccessfulRegistration_InvalidLastName -->
+                  <span class="method-name">UnSuccessfulRegistration_InvalidLastName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScript.TC011_UnsuccessfulRegistration_InvalidConfirmPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UnSuccessfulRegistration_InvalidConfirmPassword">
+                  </a> <!-- UnSuccessfulRegistration_InvalidConfirmPassword -->
+                  <span class="method-name">UnSuccessfulRegistration_InvalidConfirmPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScript.TC001_SuccessfulRegistration_EnterAllFields</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SuccessfulRegistration">
+                  </a> <!-- SuccessfulRegistration -->
+                  <span class="method-name">SuccessfulRegistration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScript.TC014_SuccessfulRegistration_OnlyMandatoryField</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SuccessfulRegistrationMandatoryfield">
+                  </a> <!-- SuccessfulRegistrationMandatoryfield -->
+                  <span class="method-name">SuccessfulRegistrationMandatoryfield</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScript.TC004_UnsucessfulRegistration_BlankLastName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UnSuccessfulRegistration_BlankLastName">
+                  </a> <!-- UnSuccessfulRegistration_BlankLastName -->
+                  <span class="method-name">UnSuccessfulRegistration_BlankLastName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScript.TC008_UnsucessfulRegistration_BlankPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UnSuccessfulRegistration_Blankpassword">
+                  </a> <!-- UnSuccessfulRegistration_Blankpassword -->
+                  <span class="method-name">UnSuccessfulRegistration_Blankpassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScript.TC002_UnsucessfulRegistration_BlankFirstName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UnSuccessfulRegistration_FirstName">
+                  </a> <!-- UnSuccessfulRegistration_FirstName -->
+                  <span class="method-name">UnSuccessfulRegistration_FirstName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestScript.TC013_UnsuccessfulRegistration_InvalidEmail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UnSuccessfulRegistration_InvalidEmail">
+                  </a> <!-- UnSuccessfulRegistration_InvalidEmail -->
+                  <span class="method-name">UnSuccessfulRegistration_InvalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\vivek\workspace\Deltax-Automation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestScript.TC001_SuccessfulRegistration_EnterAllFields&quot;/&gt;
+      &lt;class name=&quot;TestScript.TC002_UnsucessfulRegistration_BlankFirstName&quot;/&gt;
+      &lt;class name=&quot;TestScript.TC003_UnsuccessfulRegistration_InvalidFirstName&quot;/&gt;
+      &lt;class name=&quot;TestScript.TC004_UnsucessfulRegistration_BlankLastName&quot;/&gt;
+      &lt;class name=&quot;TestScript.TC005_UnsuccessfulRegistration_InvalidLastNam&quot;/&gt;
+      &lt;class name=&quot;TestScript.TC006_UnsucessfulRegistration_BlankUserName&quot;/&gt;
+      &lt;class name=&quot;TestScript.TC007_UnsuccessfulRegistration_InvalidUserName&quot;/&gt;
+      &lt;class name=&quot;TestScript.TC008_UnsucessfulRegistration_BlankPassword&quot;/&gt;
+      &lt;class name=&quot;TestScript.TC009_UnsuccessfulRegistration_InvalidPassword&quot;/&gt;
+      &lt;class name=&quot;TestScript.TC010_UnsucessfulRegistration_BlankConfirmPassword&quot;/&gt;
+      &lt;class name=&quot;TestScript.TC011_UnsuccessfulRegistration_InvalidConfirmPassword&quot;/&gt;
+      &lt;class name=&quot;TestScript.TC012_UnsucessfulRegistration_BlankEmail&quot;/&gt;
+      &lt;class name=&quot;TestScript.TC013_UnsuccessfulRegistration_InvalidEmail&quot;/&gt;
+      &lt;class name=&quot;TestScript.TC014_SuccessfulRegistration_OnlyMandatoryField&quot;/&gt;
+      &lt;class name=&quot;TestScript.TC015_UnsuccessfulRegistration_InvalidContactNo&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (15 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'UnSuccessfulRegistration_InvalidContactNo')
+data.setCell(0, 2, 'TestScript.TC015_UnsuccessfulRegistration_InvalidContactNo')
+data.setCell(0, 3, 20772);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SuccessfulRegistration')
+data.setCell(1, 2, 'TestScript.TC001_SuccessfulRegistration_EnterAllFields')
+data.setCell(1, 3, 14962);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'UnSuccessfulRegistration_InvalidUserName')
+data.setCell(2, 2, 'TestScript.TC007_UnsuccessfulRegistration_InvalidUserName')
+data.setCell(2, 3, 13999);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'UnSuccessfulRegistration_InvalidConfirmPassword')
+data.setCell(3, 2, 'TestScript.TC011_UnsuccessfulRegistration_InvalidConfirmPassword')
+data.setCell(3, 3, 13896);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'UnSuccessfulRegistration_InvalidPassword')
+data.setCell(4, 2, 'TestScript.TC009_UnsuccessfulRegistration_InvalidPassword')
+data.setCell(4, 3, 13863);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'UnSuccessfulRegistration_InvalidFirstName')
+data.setCell(5, 2, 'TestScript.TC003_UnsuccessfulRegistration_InvalidFirstName')
+data.setCell(5, 3, 13821);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'UnSuccessfulRegistration_InvalidLastName')
+data.setCell(6, 2, 'TestScript.TC005_UnsuccessfulRegistration_InvalidLastNam')
+data.setCell(6, 3, 13707);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'UnSuccessfulRegistration_InvalidEmail')
+data.setCell(7, 2, 'TestScript.TC013_UnsuccessfulRegistration_InvalidEmail')
+data.setCell(7, 3, 13245);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'UnSuccessfulRegistration_BlankLastName')
+data.setCell(8, 2, 'TestScript.TC004_UnsucessfulRegistration_BlankLastName')
+data.setCell(8, 3, 12680);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'UnSuccessfulRegistration_FirstName')
+data.setCell(9, 2, 'TestScript.TC002_UnsucessfulRegistration_BlankFirstName')
+data.setCell(9, 3, 12675);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'UnSuccessfulRegistration_Blankpassword')
+data.setCell(10, 2, 'TestScript.TC008_UnsucessfulRegistration_BlankPassword')
+data.setCell(10, 3, 12641);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'UnSuccessfulRegistration_Blankconfirmpassword')
+data.setCell(11, 2, 'TestScript.TC010_UnsucessfulRegistration_BlankConfirmPassword')
+data.setCell(11, 3, 12484);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'UnSuccessfulRegistration_BlankUserName')
+data.setCell(12, 2, 'TestScript.TC006_UnsucessfulRegistration_BlankUserName')
+data.setCell(12, 3, 12394);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'SuccessfulRegistrationMandatoryfield')
+data.setCell(13, 2, 'TestScript.TC014_SuccessfulRegistration_OnlyMandatoryField')
+data.setCell(13, 3, 12239);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'UnSuccessfulRegistration_BlankEmail')
+data.setCell(14, 2, 'TestScript.TC012_UnsucessfulRegistration_BlankEmail')
+data.setCell(14, 3, 11826);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.TC001_SuccessfulRegistration_EnterAllFields</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">SuccessfulRegistration</span>
+                <span class="method-start">14477 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">29442 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.TC002_UnsucessfulRegistration_BlankFirstName</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">29745 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">UnSuccessfulRegistration_FirstName</span>
+                <span class="method-start">39148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">51825 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.TC003_UnsuccessfulRegistration_InvalidFirstName</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">53946 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">UnSuccessfulRegistration_InvalidFirstName</span>
+                <span class="method-start">64139 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">77962 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.TC004_UnsucessfulRegistration_BlankLastName</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">78377 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">UnSuccessfulRegistration_BlankLastName</span>
+                <span class="method-start">87561 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">100243 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.TC005_UnsuccessfulRegistration_InvalidLastNam</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">100411 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">UnSuccessfulRegistration_InvalidLastName</span>
+                <span class="method-start">111139 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">124848 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.TC006_UnsucessfulRegistration_BlankUserName</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">125130 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">UnSuccessfulRegistration_BlankUserName</span>
+                <span class="method-start">135656 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">148052 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.TC007_UnsuccessfulRegistration_InvalidUserName</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">150269 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">UnSuccessfulRegistration_InvalidUserName</span>
+                <span class="method-start">159925 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">173926 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.TC008_UnsucessfulRegistration_BlankPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">174262 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">UnSuccessfulRegistration_Blankpassword</span>
+                <span class="method-start">184175 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">196818 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.TC009_UnsuccessfulRegistration_InvalidPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">197163 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">UnSuccessfulRegistration_InvalidPassword</span>
+                <span class="method-start">207539 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">221403 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.TC010_UnsucessfulRegistration_BlankConfirmPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">223518 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">UnSuccessfulRegistration_Blankconfirmpassword</span>
+                <span class="method-start">232826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">245312 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.TC011_UnsuccessfulRegistration_InvalidConfirmPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">245573 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">UnSuccessfulRegistration_InvalidConfirmPassword</span>
+                <span class="method-start">257264 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">271161 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.TC012_UnsucessfulRegistration_BlankEmail</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">271500 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">UnSuccessfulRegistration_BlankEmail</span>
+                <span class="method-start">280584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">292411 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.TC013_UnsuccessfulRegistration_InvalidEmail</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">292846 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">UnSuccessfulRegistration_InvalidEmail</span>
+                <span class="method-start">303735 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">316981 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.TC014_SuccessfulRegistration_OnlyMandatoryField</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">317230 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">SuccessfulRegistrationMandatoryfield</span>
+                <span class="method-start">327897 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">340138 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestScript.TC015_UnsuccessfulRegistration_InvalidContactNo</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">342508 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">UnSuccessfulRegistration_InvalidContactNo</span>
+                <span class="method-start">355875 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">376648 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

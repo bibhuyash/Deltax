@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="377030" started-at="2018-06-28T09:33:39Z" finished-at="2018-06-28T09:39:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="377030" started-at="2018-06-28T09:33:39Z" finished-at="2018-06-28T09:39:56Z">
+      <class name="TestScript.TC006_UnsucessfulRegistration_BlankUserName">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:TestScript.TC006_UnsucessfulRegistration_BlankUserName@4b952a2d]" name="setUP" is-config="true" duration-ms="10526" started-at="2018-06-28T15:05:44Z" finished-at="2018-06-28T15:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="UnSuccessfulRegistration_BlankUserName()[pri:0, instance:TestScript.TC006_UnsucessfulRegistration_BlankUserName@4b952a2d]" name="UnSuccessfulRegistration_BlankUserName" duration-ms="12394" started-at="2018-06-28T15:05:55Z" finished-at="2018-06-28T15:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnSuccessfulRegistration_BlankUserName -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:TestScript.TC006_UnsucessfulRegistration_BlankUserName@4b952a2d]" name="quitBrowser" is-config="true" duration-ms="2215" started-at="2018-06-28T15:06:07Z" finished-at="2018-06-28T15:06:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestScript.TC006_UnsucessfulRegistration_BlankUserName -->
+      <class name="TestScript.TC011_UnsuccessfulRegistration_InvalidConfirmPassword">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:TestScript.TC011_UnsuccessfulRegistration_InvalidConfirmPassword@5649fd9b]" name="setUP" is-config="true" duration-ms="11691" started-at="2018-06-28T15:07:45Z" finished-at="2018-06-28T15:07:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="UnSuccessfulRegistration_InvalidConfirmPassword()[pri:0, instance:TestScript.TC011_UnsuccessfulRegistration_InvalidConfirmPassword@5649fd9b]" name="UnSuccessfulRegistration_InvalidConfirmPassword" duration-ms="13896" started-at="2018-06-28T15:07:56Z" finished-at="2018-06-28T15:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnSuccessfulRegistration_InvalidConfirmPassword -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:TestScript.TC011_UnsuccessfulRegistration_InvalidConfirmPassword@5649fd9b]" name="quitBrowser" is-config="true" duration-ms="339" started-at="2018-06-28T15:08:10Z" finished-at="2018-06-28T15:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestScript.TC011_UnsuccessfulRegistration_InvalidConfirmPassword -->
+      <class name="TestScript.TC013_UnsuccessfulRegistration_InvalidEmail">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:TestScript.TC013_UnsuccessfulRegistration_InvalidEmail@2d928643]" name="setUP" is-config="true" duration-ms="10889" started-at="2018-06-28T15:08:32Z" finished-at="2018-06-28T15:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="UnSuccessfulRegistration_InvalidEmail()[pri:0, instance:TestScript.TC013_UnsuccessfulRegistration_InvalidEmail@2d928643]" name="UnSuccessfulRegistration_InvalidEmail" duration-ms="13245" started-at="2018-06-28T15:08:43Z" finished-at="2018-06-28T15:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnSuccessfulRegistration_InvalidEmail -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:TestScript.TC013_UnsuccessfulRegistration_InvalidEmail@2d928643]" name="quitBrowser" is-config="true" duration-ms="248" started-at="2018-06-28T15:08:56Z" finished-at="2018-06-28T15:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestScript.TC013_UnsuccessfulRegistration_InvalidEmail -->
+      <class name="TestScript.TC003_UnsuccessfulRegistration_InvalidFirstName">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:TestScript.TC003_UnsuccessfulRegistration_InvalidFirstName@25bbe1b6]" name="setUP" is-config="true" duration-ms="10192" started-at="2018-06-28T15:04:33Z" finished-at="2018-06-28T15:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="UnSuccessfulRegistration_InvalidFirstName()[pri:0, instance:TestScript.TC003_UnsuccessfulRegistration_InvalidFirstName@25bbe1b6]" name="UnSuccessfulRegistration_InvalidFirstName" duration-ms="13821" started-at="2018-06-28T15:04:43Z" finished-at="2018-06-28T15:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnSuccessfulRegistration_InvalidFirstName -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:TestScript.TC003_UnsuccessfulRegistration_InvalidFirstName@25bbe1b6]" name="quitBrowser" is-config="true" duration-ms="414" started-at="2018-06-28T15:04:57Z" finished-at="2018-06-28T15:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestScript.TC003_UnsuccessfulRegistration_InvalidFirstName -->
+      <class name="TestScript.TC012_UnsucessfulRegistration_BlankEmail">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:TestScript.TC012_UnsucessfulRegistration_BlankEmail@6adede5]" name="setUP" is-config="true" duration-ms="9083" started-at="2018-06-28T15:08:11Z" finished-at="2018-06-28T15:08:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="UnSuccessfulRegistration_BlankEmail()[pri:0, instance:TestScript.TC012_UnsucessfulRegistration_BlankEmail@6adede5]" name="UnSuccessfulRegistration_BlankEmail" duration-ms="11826" started-at="2018-06-28T15:08:20Z" finished-at="2018-06-28T15:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnSuccessfulRegistration_BlankEmail -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:TestScript.TC012_UnsucessfulRegistration_BlankEmail@6adede5]" name="quitBrowser" is-config="true" duration-ms="434" started-at="2018-06-28T15:08:32Z" finished-at="2018-06-28T15:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestScript.TC012_UnsucessfulRegistration_BlankEmail -->
+      <class name="TestScript.TC008_UnsucessfulRegistration_BlankPassword">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:TestScript.TC008_UnsucessfulRegistration_BlankPassword@73846619]" name="setUP" is-config="true" duration-ms="9913" started-at="2018-06-28T15:06:33Z" finished-at="2018-06-28T15:06:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="UnSuccessfulRegistration_Blankpassword()[pri:0, instance:TestScript.TC008_UnsucessfulRegistration_BlankPassword@73846619]" name="UnSuccessfulRegistration_Blankpassword" duration-ms="12641" started-at="2018-06-28T15:06:43Z" finished-at="2018-06-28T15:06:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnSuccessfulRegistration_Blankpassword -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:TestScript.TC008_UnsucessfulRegistration_BlankPassword@73846619]" name="quitBrowser" is-config="true" duration-ms="345" started-at="2018-06-28T15:06:56Z" finished-at="2018-06-28T15:06:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestScript.TC008_UnsucessfulRegistration_BlankPassword -->
+      <class name="TestScript.TC010_UnsucessfulRegistration_BlankConfirmPassword">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:TestScript.TC010_UnsucessfulRegistration_BlankConfirmPassword@29ca901e]" name="setUP" is-config="true" duration-ms="9306" started-at="2018-06-28T15:07:23Z" finished-at="2018-06-28T15:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="UnSuccessfulRegistration_Blankconfirmpassword()[pri:0, instance:TestScript.TC010_UnsucessfulRegistration_BlankConfirmPassword@29ca901e]" name="UnSuccessfulRegistration_Blankconfirmpassword" duration-ms="12484" started-at="2018-06-28T15:07:32Z" finished-at="2018-06-28T15:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnSuccessfulRegistration_Blankconfirmpassword -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:TestScript.TC010_UnsucessfulRegistration_BlankConfirmPassword@29ca901e]" name="quitBrowser" is-config="true" duration-ms="260" started-at="2018-06-28T15:07:45Z" finished-at="2018-06-28T15:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestScript.TC010_UnsucessfulRegistration_BlankConfirmPassword -->
+      <class name="TestScript.TC002_UnsucessfulRegistration_BlankFirstName">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:TestScript.TC002_UnsucessfulRegistration_BlankFirstName@ff5b51f]" name="setUP" is-config="true" duration-ms="9403" started-at="2018-06-28T15:04:09Z" finished-at="2018-06-28T15:04:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="UnSuccessfulRegistration_FirstName()[pri:0, instance:TestScript.TC002_UnsucessfulRegistration_BlankFirstName@ff5b51f]" name="UnSuccessfulRegistration_FirstName" duration-ms="12675" started-at="2018-06-28T15:04:18Z" finished-at="2018-06-28T15:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnSuccessfulRegistration_FirstName -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:TestScript.TC002_UnsucessfulRegistration_BlankFirstName@ff5b51f]" name="quitBrowser" is-config="true" duration-ms="2120" started-at="2018-06-28T15:04:31Z" finished-at="2018-06-28T15:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestScript.TC002_UnsucessfulRegistration_BlankFirstName -->
+      <class name="TestScript.TC009_UnsuccessfulRegistration_InvalidPassword">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:TestScript.TC009_UnsuccessfulRegistration_InvalidPassword@4bec1f0c]" name="setUP" is-config="true" duration-ms="10373" started-at="2018-06-28T15:06:56Z" finished-at="2018-06-28T15:07:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="UnSuccessfulRegistration_InvalidPassword()[pri:0, instance:TestScript.TC009_UnsuccessfulRegistration_InvalidPassword@4bec1f0c]" name="UnSuccessfulRegistration_InvalidPassword" duration-ms="13863" started-at="2018-06-28T15:07:07Z" finished-at="2018-06-28T15:07:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnSuccessfulRegistration_InvalidPassword -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:TestScript.TC009_UnsuccessfulRegistration_InvalidPassword@4bec1f0c]" name="quitBrowser" is-config="true" duration-ms="2115" started-at="2018-06-28T15:07:21Z" finished-at="2018-06-28T15:07:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestScript.TC009_UnsuccessfulRegistration_InvalidPassword -->
+      <class name="TestScript.TC001_SuccessfulRegistration_EnterAllFields">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:TestScript.TC001_SuccessfulRegistration_EnterAllFields@1ed4004b]" name="setUP" is-config="true" duration-ms="14452" started-at="2018-06-28T15:03:39Z" finished-at="2018-06-28T15:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="SuccessfulRegistration()[pri:0, instance:TestScript.TC001_SuccessfulRegistration_EnterAllFields@1ed4004b]" name="SuccessfulRegistration" duration-ms="14962" started-at="2018-06-28T15:03:54Z" finished-at="2018-06-28T15:04:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessfulRegistration -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:TestScript.TC001_SuccessfulRegistration_EnterAllFields@1ed4004b]" name="quitBrowser" is-config="true" duration-ms="299" started-at="2018-06-28T15:04:09Z" finished-at="2018-06-28T15:04:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestScript.TC001_SuccessfulRegistration_EnterAllFields -->
+      <class name="TestScript.TC005_UnsuccessfulRegistration_InvalidLastNam">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:TestScript.TC005_UnsuccessfulRegistration_InvalidLastNam@69ea3742]" name="setUP" is-config="true" duration-ms="10728" started-at="2018-06-28T15:05:20Z" finished-at="2018-06-28T15:05:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="UnSuccessfulRegistration_InvalidLastName()[pri:0, instance:TestScript.TC005_UnsuccessfulRegistration_InvalidLastNam@69ea3742]" name="UnSuccessfulRegistration_InvalidLastName" duration-ms="13707" started-at="2018-06-28T15:05:30Z" finished-at="2018-06-28T15:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnSuccessfulRegistration_InvalidLastName -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:TestScript.TC005_UnsuccessfulRegistration_InvalidLastNam@69ea3742]" name="quitBrowser" is-config="true" duration-ms="281" started-at="2018-06-28T15:05:44Z" finished-at="2018-06-28T15:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestScript.TC005_UnsuccessfulRegistration_InvalidLastNam -->
+      <class name="TestScript.TC007_UnsuccessfulRegistration_InvalidUserName">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:TestScript.TC007_UnsuccessfulRegistration_InvalidUserName@3159c4b8]" name="setUP" is-config="true" duration-ms="9656" started-at="2018-06-28T15:06:09Z" finished-at="2018-06-28T15:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="UnSuccessfulRegistration_InvalidUserName()[pri:0, instance:TestScript.TC007_UnsuccessfulRegistration_InvalidUserName@3159c4b8]" name="UnSuccessfulRegistration_InvalidUserName" duration-ms="13999" started-at="2018-06-28T15:06:19Z" finished-at="2018-06-28T15:06:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnSuccessfulRegistration_InvalidUserName -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:TestScript.TC007_UnsuccessfulRegistration_InvalidUserName@3159c4b8]" name="quitBrowser" is-config="true" duration-ms="336" started-at="2018-06-28T15:06:33Z" finished-at="2018-06-28T15:06:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestScript.TC007_UnsuccessfulRegistration_InvalidUserName -->
+      <class name="TestScript.TC014_SuccessfulRegistration_OnlyMandatoryField">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:TestScript.TC014_SuccessfulRegistration_OnlyMandatoryField@5025a98f]" name="setUP" is-config="true" duration-ms="10666" started-at="2018-06-28T15:08:56Z" finished-at="2018-06-28T15:09:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="SuccessfulRegistrationMandatoryfield()[pri:0, instance:TestScript.TC014_SuccessfulRegistration_OnlyMandatoryField@5025a98f]" name="SuccessfulRegistrationMandatoryfield" duration-ms="12239" started-at="2018-06-28T15:09:07Z" finished-at="2018-06-28T15:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessfulRegistrationMandatoryfield -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:TestScript.TC014_SuccessfulRegistration_OnlyMandatoryField@5025a98f]" name="quitBrowser" is-config="true" duration-ms="2369" started-at="2018-06-28T15:09:19Z" finished-at="2018-06-28T15:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestScript.TC014_SuccessfulRegistration_OnlyMandatoryField -->
+      <class name="TestScript.TC015_UnsuccessfulRegistration_InvalidContactNo">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:TestScript.TC015_UnsuccessfulRegistration_InvalidContactNo@49993335]" name="setUP" is-config="true" duration-ms="13366" started-at="2018-06-28T15:09:22Z" finished-at="2018-06-28T15:09:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="UnSuccessfulRegistration_InvalidContactNo()[pri:0, instance:TestScript.TC015_UnsuccessfulRegistration_InvalidContactNo@49993335]" name="UnSuccessfulRegistration_InvalidContactNo" duration-ms="20772" started-at="2018-06-28T15:09:35Z" finished-at="2018-06-28T15:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnSuccessfulRegistration_InvalidContactNo -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:TestScript.TC015_UnsuccessfulRegistration_InvalidContactNo@49993335]" name="quitBrowser" is-config="true" duration-ms="346" started-at="2018-06-28T15:09:56Z" finished-at="2018-06-28T15:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestScript.TC015_UnsuccessfulRegistration_InvalidContactNo -->
+      <class name="TestScript.TC004_UnsucessfulRegistration_BlankLastName">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:TestScript.TC004_UnsucessfulRegistration_BlankLastName@5702b3b1]" name="setUP" is-config="true" duration-ms="9183" started-at="2018-06-28T15:04:58Z" finished-at="2018-06-28T15:05:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="UnSuccessfulRegistration_BlankLastName()[pri:0, instance:TestScript.TC004_UnsucessfulRegistration_BlankLastName@5702b3b1]" name="UnSuccessfulRegistration_BlankLastName" duration-ms="12680" started-at="2018-06-28T15:05:07Z" finished-at="2018-06-28T15:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnSuccessfulRegistration_BlankLastName -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:TestScript.TC004_UnsucessfulRegistration_BlankLastName@5702b3b1]" name="quitBrowser" is-config="true" duration-ms="167" started-at="2018-06-28T15:05:19Z" finished-at="2018-06-28T15:05:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestScript.TC004_UnsucessfulRegistration_BlankLastName -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
